@@ -17,6 +17,10 @@
 
 ### Methods (Actions)
 - Instance Method
+    - Method that can be performed on the object
 - Class Method
+    - Allows us to create and modify class level data
 - Static Method
+    - Does not have access to class or instance attributes but performs action within the class
 - Magic
+    - Reserved methods that perform a specific task e.g. `__str__`
