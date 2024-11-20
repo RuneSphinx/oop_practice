@@ -9,4 +9,10 @@ class Vehicle:
         self.model = model
         self.year = year
 
+    #instance method that we can perform on the object
+    def __str__(self):
+        #return a string about the vehicle object
+        return f'Vehicle Make:{self.make}, Model: {self.model}, Year: {self.year}'
+    
+
 
